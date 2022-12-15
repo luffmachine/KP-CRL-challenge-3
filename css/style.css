@@ -4,24 +4,12 @@
   box-sizing: border-box;
 }
 
+
 /******************************************
-/* BASE STYLES
+Styles
 /*******************************************/
-.background {
-  padding: 100px 0;
-  background: #23424A;
-  color: white;
+body{
   font-family: Roboto, sans-serif;
-}
-
-.container {
-  width: 80%;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.intro-content {
-  width: 60%;
 }
 
 h1 {
@@ -33,6 +21,26 @@ p {
   font-size: 21px;
   font-weight: 400;
   margin-bottom: 2em;
+}
+
+
+/******************************************
+Intro
+/*******************************************/
+.intro {
+  padding: 100px 0;
+  background: #23424A;
+  color: white;
+}
+
+.intro-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.intro-content {
+  width: 60%;
 }
 
 .btn {
@@ -51,4 +59,57 @@ p {
 .btn:hover,
 .btn:focus {
   color: rgba(255, 255, 255, 0.75);
+}
+
+
+/******************************************
+Middle
+/*******************************************/
+.middle {
+  text-align: center;
+  padding: 50px;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.middle h2 {
+  color: #87629A;
+  font-size: 30px;
+}
+
+.middle .row {
+  display: flex;
+  width: 100%;
+}
+
+.middle .col + .col {
+  margin-left: 30px;
+}
+
+
+/******************************************
+Bottom
+/*******************************************/
+.bottom {
+  background: #136C72;
+  color: #fff;
+  display: flex;
+  padding: 50px;
+  text-align: center;
+}
+
+.bottom .col + .col {
+  margin-left: 30px;
+}
+
+.bottom-flex-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.bottom h2 {
+  font-size: 30px;
 }
