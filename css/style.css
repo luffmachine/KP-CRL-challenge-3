@@ -23,6 +23,9 @@ p {
   margin-bottom: 2em;
 }
 
+img {
+  max-width: 100%;
+}
 
 /******************************************
 Intro
@@ -37,10 +40,21 @@ Intro
   width: 80%;
   max-width: 1000px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .intro-content {
   width: 60%;
+}
+
+.intro-content h1 {
+  margin-top: 0;
+}
+
+.hero-image {
+  width: 30%;
+  align-self: flex-start;
 }
 
 .btn {
@@ -65,26 +79,35 @@ Intro
 /******************************************
 Middle
 /*******************************************/
-.middle {
-  text-align: center;
+.middle-container {
+  display: flex;
+  justify-content: space-around;
   padding: 50px;
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1000px;
 }
 
-.middle h2 {
-  color: #87629A;
+.middle-left {
+  width: 50%;
+}
+
+.middle-left h2 {
+  color: #136C72;
+  font-size: 35px;
+}
+
+.middle-right {
+  background: #136C72;
+  color: #fff;
+  text-align: center;
+  width: 30%;
+  padding: 0 50px;
+}
+
+.middle-right h2 {
   font-size: 30px;
 }
 
-.middle .row {
-  display: flex;
-  width: 100%;
-}
-
-.middle .col + .col {
-  margin-left: 30px;
+.middle-right p {
+  padding-bottom: 20px;
 }
 
 
