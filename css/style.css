@@ -110,29 +110,3 @@ Middle
   padding-bottom: 20px;
 }
 
-
-/******************************************
-Bottom
-/*******************************************/
-.bottom {
-  background: #136C72;
-  color: #fff;
-  display: flex;
-  padding: 50px;
-  text-align: center;
-}
-
-.bottom .col + .col {
-  margin-left: 30px;
-}
-
-.bottom-flex-container {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
-.bottom h2 {
-  font-size: 30px;
-}
