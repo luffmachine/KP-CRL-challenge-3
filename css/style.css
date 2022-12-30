@@ -96,6 +96,11 @@ Section four
   color: #fff;
 }
 
+.layout-order-switch {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 
 /******************************************
 Media queries
@@ -121,4 +126,7 @@ Media queries
     text-align: center;
   }
   
+  .layout-order-switch {
+    flex-direction: row;
+  }
 }
