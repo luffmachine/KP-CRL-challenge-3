@@ -116,4 +116,9 @@ Media queries
   .intro__title {
     font-size: 3.75rem;
   }
+
+  .section-title--dark {
+    text-align: center;
+  }
+  
 }
